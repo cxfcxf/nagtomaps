@@ -1,7 +1,6 @@
 package nagtomaps
 
 import (
-	"fmt"
 	"io/ioutil"
 	"strings"
 )
