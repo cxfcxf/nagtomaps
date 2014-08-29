@@ -93,7 +93,7 @@ type statusData struct {
 	Servicecommentslist	map[string]map[string]string
 }
 
-func parseStatus(nagstatfile string)  statusData{
+func ParseStatus(nagstatfile string)  statusData{
 	b, err := ioutil.ReadFile(nagstatfile)
 	if err != nil { panic(err) }
 
